@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "naruto";
+  src: url("./assets/font/ninja-naruto/njnaruto.ttf");
+}
+* {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
+
+.container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(125, 0, 0, 1) 46%
+  );
+  border-radius: 10px;
+  box-shadow:
+    5px 5px 5px 0px #000000,
+    inset 4px 4px 15px 0px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+.name {
+  margin-top: 40px;
+  font-family: "naruto";
+  padding-left: 20px;
+  color: antiquewhite;
+}
+
+.img {
+  border-radius: 10px;
+  width: 100%;
+}
+.star-rating {
+  font-size: 20px;
+  margin-top: 40px;
+  text-align: center;
+  font-family: "naruto";
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(125, 0, 0, 1) 46%
+  );
+  color: antiquewhite;
+}
